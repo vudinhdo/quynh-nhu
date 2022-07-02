@@ -1,0 +1,43 @@
+
+/* Tất cả màu bên dưới bạn đều có thể thay đổi được */
+.thuTitle {
+    padding: 20px;
+    background-color: #2e1b3b;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 26pt;
+}
+
+.tamthu {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20pt;
+    color: white;
+}
+
+.content {
+    background-color: #59b4c4;
+}
+
+body {
+    /* Ảnh nền của trang thứ 2 */
+    background-image: url("https://wallpaperaccess.com/full/4002242.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+span {
+    display: inline-block;
+    white-space: pre;
+}
+
+.iloveyou {
+    position: relative;
+}
+
+.mask {
+    position: absolute;
+    background-color: #59b4c4;
+    width: 100%;
+    height:100%;
+    top: 0;
+    left: 0;
+}
